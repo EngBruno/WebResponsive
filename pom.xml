@@ -50,10 +50,16 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		</dependency>
 		<!-- BootStrap -->
 		<dependency>
-    			<groupId>net.bootsfaces</groupId>
-    			<artifactId>bootsfaces</artifactId>
-    			<version>0.8.0</version>
-    			<scope>compile</scope>
+    		<groupId>net.bootsfaces</groupId>
+    		<artifactId>bootsfaces</artifactId>
+    		<version>0.8.0</version>
+    		<scope>compile</scope>
+		</dependency>
+		<!-- PrimeFaces -->
+		<dependency>  
+    		<groupId>org.primefaces</groupId>  
+    		<artifactId>primefaces</artifactId>  
+    		<version>5.3</version>  
 		</dependency>
   </dependencies>
 </project>
